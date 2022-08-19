@@ -10,6 +10,8 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #383946;
+    color: #fff;
 }
 
 .container {
@@ -24,7 +26,7 @@ img {
 }
 
 nav {
-    background-color: #fff;
+    background-color: #383946;
     position: fixed;
     top: 0;
     left: 0;
@@ -39,14 +41,26 @@ nav .container {
     justify-content: space-between;
 }
 
+.wavy-line {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: cadetblue;
+    text-decoration-thickness: 3px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
 p {
     line-height: 1.7;
     font-size: 16px;
-    color: #434343;
+    color: #aaa;
 }
 
 a {
-    color: #000;
+    color: #fff;
+    text-decoration: none;
 }
 
 a:hover {
@@ -54,7 +68,8 @@ a:hover {
 }
 
 .active {
-    color: #000;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .menu-items {
@@ -62,7 +77,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background-color: #383946;
     top: 100px;
     right: 0;
     bottom: 0;
@@ -71,14 +86,6 @@ a:hover {
     overflow-x: hidden;
     transition: all .5s ease-in-out;
     z-index: 2;
-}
-
-.menu-items a{
-    text-decoration: none;
-}
-
-.menu-items a:hover {
-    text-decoration: underline;
 }
 
 .menu-items.open {
@@ -91,11 +98,6 @@ a:hover {
 
 .nav-items {
     display: none;
-}
-
-.nav-items a {
-    color: #434343;
-    text-decoration: none;
 }
 
 .nav-items > * {
@@ -111,30 +113,13 @@ section.hero-section p {
     padding: 2em 0;
 }
 
-.heading-name {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: cadetblue;
-    text-decoration-thickness: 3px;
-}
-
-h1 {
-    font-weight: 400;
-}
-
 section.about-me {
-    /* background-color: #b0bbbf; */
-    color: #333;
     padding: 2em 0;
 }
 
 section.about-me h2 {
     width: 150px;
     padding-bottom: 1em;
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: cadetblue;
-    text-decoration-thickness: 3px;
 }
 
 footer .container {
@@ -154,9 +139,15 @@ footer p {
     padding: 0 10px;
 }
 
-.social-links a:hover {
-    color: #434343;
+.social-links a {
+    color: #fff;
 }
+
+.social-links a:hover {
+    color: #aaa;
+}
+
+/* Hamburger Menu */
 
 .menu-btn {
     position: relative;
@@ -173,7 +164,7 @@ footer p {
 .menu-btn-burger {
     width: 40px;
     height: 2px;
-    background: #000;
+    background: #fff;
     border-radius: 5px;
     transition: all .5s ease-in-out;
 }
@@ -184,7 +175,7 @@ footer p {
     position: absolute;
     width: 40px;
     height: 2px;
-    background-color: #000;
+    background-color: #fff;
     border-radius: 5px;
     transition: all .5s ease-in-out;
 }
