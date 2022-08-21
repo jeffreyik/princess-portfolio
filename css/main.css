@@ -112,7 +112,7 @@ a:hover {
 
 section.hero-section {
     margin: 2em 0;
-    font-size: 56px;
+    font-size: 48px;
 }
 
 section.hero-section p {
@@ -237,5 +237,8 @@ footer p {
     }
     .menu-items {
         display: none;
+    }
+    section.hero-section {
+        font-size: 56px;
     }
 }
