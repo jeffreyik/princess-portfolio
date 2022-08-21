@@ -25,6 +25,11 @@ img {
     width: 100%;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: #383946;
     position: fixed;
@@ -120,6 +125,21 @@ section.about-me {
 section.about-me h2 {
     width: 150px;
     padding-bottom: 1em;
+}
+
+section.tools ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+
+section.tools ul li {
+    padding: .5em;
+    font-size: 1.5em;
+}
+
+section.tools ul li::marker {
+    color: cadetblue;
 }
 
 footer .container {
