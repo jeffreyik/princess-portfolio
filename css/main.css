@@ -47,6 +47,7 @@ nav .container {
 }
 
 .wavy-line {
+    padding-bottom: 1em;
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: cadetblue;
@@ -58,9 +59,9 @@ h1 {
 }
 
 p {
-    line-height: 1.7;
+    line-height: 1.6;
     font-size: 16px;
-    color: #aaa;
+    color: #a7a7a7;
 }
 
 a {
@@ -124,7 +125,6 @@ section.about-me {
 
 section.about-me h2 {
     width: 150px;
-    padding-bottom: 1em;
 }
 
 section.tools ul {
