@@ -132,11 +132,17 @@ footer h3 {
 }
 
 footer p {
-    padding: .5em 0;
+    padding: 1em 0;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .social-links a {
-    padding: 0 10px;
+    padding: 0 12px;
 }
 
 .social-links a {
