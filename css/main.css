@@ -123,8 +123,24 @@ section.about-me {
     padding: 2em 0;
 }
 
+section.about-me p {
+    padding-bottom: 1.5em;
+}
+
 section.about-me h2 {
     width: 150px;
+}
+
+section.about-me h3 {
+    padding: 1em 0;
+}
+
+section.tools {
+    padding-bottom: 2em;
+}
+
+section.tools h2 {
+    padding-bottom: 1em;
 }
 
 section.tools ul {
